@@ -7,7 +7,7 @@ Previous I've followed a tutorial for the other Security Game project <a href=ht
 Furthermore I'd like to try the following:
 <br>
 <br>
-<u>Plans/Todos:</u>
+<strong><u>Plans/Todos:</u></strong>
 <ul>
 <li>To complete this project with my current knowledge + some research. 
 <li>To understand what I am doing. 
