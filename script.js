@@ -10,5 +10,6 @@ let gamestart = false;
 let gameend = false;
 let gameloop;
 
-
+console.log(timer);
+console.log(points);
 
