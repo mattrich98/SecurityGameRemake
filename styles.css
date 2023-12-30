@@ -47,3 +47,21 @@ button:hover {
 button:active {
     background-color: darkblue;
 }
+
+.timerScoreGroup {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.timer {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900
+}
+
+.score{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900
+}
