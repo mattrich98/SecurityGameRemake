@@ -38,3 +38,12 @@ button {
     font-size: 25px;
     font-weight: 900
 }
+
+button:hover {
+    transition: 0.2s;
+    background-color: blue;
+}
+
+button:active {
+    background-color: darkblue;
+}
