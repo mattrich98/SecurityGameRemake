@@ -5,8 +5,6 @@
     font-family: monospace;
 }
 
-
-
 #Board {
     
     background-color: grey;
@@ -16,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start; /*removes gap from flex wrap */
-
+    margin: auto;
 }
 
 #enemy {
