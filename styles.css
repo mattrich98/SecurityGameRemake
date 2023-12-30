@@ -7,11 +7,9 @@
 }
 
 #Board {
-    
     background-color: white;
     width: 468px;
     height: 468px;
-
 
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +33,11 @@ button {
     background-color: aqua;
     width: 468px;
     height: 40px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 
     text-align: center;
     font-size: 25px;
