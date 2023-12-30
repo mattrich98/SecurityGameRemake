@@ -1,10 +1,13 @@
 # Project-SecurityGameRemake
 <h2>Security Game Remake</h2>
 <h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
-<hr style="border-top: dotted 1px;" />
-Previous I've followed a tutorial for the previous Security Game project, so I'd like to try the following:
+<hr>
+Previous I've followed a tutorial for the other Security Game project <a src=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
+<br>
+Furthermore I'd like to try the following:
 <br>
 <br>
+<u>Plans/Todos:</u>
 <ul>
 <li>To complete this project with my current knowledge + some research. 
 <li>To understand what I am doing. 
@@ -19,4 +22,5 @@ Previous I've followed a tutorial for the previous Security Game project, so I'd
 <li>string literals and etc.</li> 
 </ul>
 </ul>
-<hr style="border-top: dotted 1px;" />
+<br>
+<hr>
