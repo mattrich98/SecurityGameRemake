@@ -35,4 +35,5 @@ Furthermore I'd like to try the following:
 <br>
 <li>able to restart game from play button without refreshing page</li>
 <li>play button click -> game loop will start</li>
+<li>play button will say "Click to restart" after game loop ended"</li>
 </ol> 
