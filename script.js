@@ -2,7 +2,7 @@ let enemy;
 let person; 
 let gameBoard;
 
-let timer;
+let timer = 0;
 let points = 0;
 
 let playButton = false;
