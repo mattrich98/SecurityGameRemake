@@ -1,7 +1,7 @@
 # Project-SecurityGameRemake
 Security Game Remake
 <hr>
-<h4>"The Odin Project" is mostly read without application currently, so I need to put into practice what you have learned.</h4>
+<h4>"The Odin Project" is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
 Previous I've followed the tutorial for the previous Security Game project, so I'd like to try the following:
 <br>
 <br>
