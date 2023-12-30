@@ -1,15 +1,17 @@
 * {
     background-color: rgb(255, 255, 255);
     border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
 
     font-family: monospace;
 }
 
 #Board {
     
-    background-color: grey;
+    background-color: white;
     width: 468px;
     height: 468px;
+
 
     display: flex;
     flex-wrap: wrap;
