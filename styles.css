@@ -1,13 +1,18 @@
 * {
     background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
 
+    font-family: monospace;
 }
 
+
+
 #Board {
-    border: solid 1px rgb(255, 0, 0);
+    
     background-color: grey;
     width: 468px;
     height: 468px;
+
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start; /*removes gap from flex wrap */
@@ -15,15 +20,23 @@
 }
 
 #enemy {
-    border: solid 1px rgb(255, 255, 255);
     background-color: red;
     width: 50px;
     height: 50px;
 }
 
 #person {
-    border: solid 1px rgb(255, 255, 255);
     background-color: green;
     width: 50px;
     height: 50px;
+}
+
+button {
+    background-color: aqua;
+    width: 468px;
+    height: 40px;;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900
 }
