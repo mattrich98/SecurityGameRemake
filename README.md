@@ -24,3 +24,15 @@ Furthermore I'd like to try the following:
 </ul>
 <br>
 <hr>
+<strong><u>JavaScript plans:</u></strong>
+<ol>
+<li>Game timer loop on ticks when play button starts</li>
+<li>Add timer that links with timer loop</li>
+<br>
+<li>use math.random api to make enemy and person move random spaces on board</li>
+<li>onclick enemy -1 point, onclick person +1 point</li>
+<li>point system with alert at end saying score.</li>
+<br>
+<li>able to restart game from play button without refreshing page</li>
+<li>play button click -> game loop will start</li>
+</ol> 
