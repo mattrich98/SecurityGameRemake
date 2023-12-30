@@ -2,7 +2,7 @@
 <h2>Security Game Remake</h2>
 <h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
 <hr>
-Previous I've followed a tutorial for the other Security Game project <a src=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
+Previous I've followed a tutorial for the other Security Game project <a href=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
 <br>
 Furthermore I'd like to try the following:
 <br>
