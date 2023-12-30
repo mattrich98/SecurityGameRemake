@@ -1,6 +1,5 @@
 # Project-SecurityGameRemake
 <h2>Security Game Remake</h2>
-<hr>
 <h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
 <hr style="border-top: dotted 1px;" />
 Previous I've followed a tutorial for the previous Security Game project, so I'd like to try the following:
