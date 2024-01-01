@@ -6,13 +6,20 @@ let playButton;
 const timer = 0;
 const points = 0;
 
-let gamestart = false;
-let gameloop; false;
-let gameend = false;
+let gameStart = false;
+let gameLoop;
+let gameEnd = false;
+
 
 function startGame() {
-gamestart= true;
-console.log(gamestart);
+  if (gameStart = true) {
+    return "game has started";
+  }
+  else if (gameStart = false)  {
+    return "game not started";
+  }
 }
 
-startGame()
+startGame();
+
+console.log (startGame());
