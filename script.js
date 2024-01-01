@@ -1,15 +1,18 @@
 let enemy;
-let person; 
+let person;
 let gameBoard;
+let playButton;
 
-let timer = 0;
-let points = 0;
+const timer = 0;
+const points = 0;
 
-let playButton = false;
 let gamestart = false;
+let gameloop; false;
 let gameend = false;
-let gameloop;
 
-console.log(timer);
-console.log(points);
+function startGame() {
+gamestart= true;
+console.log(gamestart);
+}
 
+startGame()
