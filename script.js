@@ -12,13 +12,13 @@ function startGame() {
 
 function gameIntervals() {
   gameTime++;
-  if (gameTime <= 5) {
+  if (gameTime <= 20) {
     setTimeout(gameIntervals, 750); //Loops gameIntervals, 750 = time between
     console.log(gameTime);
     document.getElementById("timeNumber").innerHTML = gameTime; //link with HTML timer
     document.getElementById("startButton").innerHTML = "Game Started";
     document.getElementById("startButton").onclick = false; //stops play button press
-  } else if (gameTime >= 5) {
+  } else if (gameTime >= 20) {
     //stops setTimeout loop
     alert("Game over! you scored: " + gameScore);
     console.log("Game Over");
