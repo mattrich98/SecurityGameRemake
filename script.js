@@ -1,6 +1,6 @@
 let gameTime = 0;
 let gameScore = 0;
-let gameBoard = document.querySelector("#Board") = 0;
+//let gameBoard = document.querySelector("#Board") = 0;
 
 console.log(Math.floor(Math.random() * 81));
 
@@ -12,30 +12,35 @@ function startGame() {
 }
 
 function gameIntervals(){
-    for (let i = 0; i <= 60; i ++ ){
-        console.log(i); 
+    gameTime++
+    if(gameTime <= 5){
+        setTimeout(gameIntervals, 750); //Loops gameIntervals, 750 = time between
+       
+        console.log(gameTime); 
         document.getElementById("startButton").innerHTML = "Game Started";
-
+        document.getElementById("startButton").onclick = false;//stops play button press
     }
 
-
-    if (i = 60){
-    console.log("Game Over");
-    document.getElementById("startButton").innerHTML = "Play again?";
-    alert("Game over, you scored " + gameScore);
+    else if (gameTime >= 5){
+        console.log("Game Over");
+        document.getElementById("startButton").innerHTML = "Play again?";
+        }
+        
     }
-    
-}
 
 function movePlayers() {
-    gameBoard.children(Math.floor(Math.random() * 81));
+    //gameBoard.children(Math.floor(Math.random() * 81));
     return "players moved places"
 }
 
 
-//if(gameLoop == 60){
+//if(gameLoop == 60){ --- cant slow down loop so needs to be if/else
 //    gameLoop == 60
 //  }
 //  else if (gameLoop == 60){
 //      gameLoop= 60;
 //}
+
+/*
+    for (let i = 0; i <= 60; i ++ ){
+*/
