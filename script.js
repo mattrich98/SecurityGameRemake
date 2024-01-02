@@ -1,7 +1,13 @@
-function startGame() {
-    console.log("test");
-    return "game started";
+
+console.log(Math.floor(Math.random() * 81));
+
+function movePlayers() {
+    console.log("movePlayers test")
+    return "players moved places"
 }
 
-console.log((Math.random() * 10));
-console.log(Math.floor(Math.random() * 10));
+function startGame() {
+    console.log("test");
+    movePlayers();
+    return "game started";
+}
