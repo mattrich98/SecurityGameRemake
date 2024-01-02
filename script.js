@@ -24,7 +24,7 @@ function gameIntervals(){
     else if (gameTime >= 5){
         alert("Game over! you scored: " + gameScore);
         console.log("Game Over");
-        document.getElementById("startButton").innerHTML = "Click below to play again";
+        //document.getElementById("startButton").innerHTML = "Click below to play again";
         location.reload();    
     }
         
