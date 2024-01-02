@@ -25,7 +25,8 @@ function gameIntervals(){
         alert("Game over! you scored: " + gameScore);
         console.log("Game Over");
         document.getElementById("startButton").innerHTML = "Click below to play again";
-        }
+        location.reload();    
+    }
         
     }
 
@@ -34,10 +35,10 @@ function movePlayers() {
     return "players moved places"
 }
 
-function refreshPage() {
+/*function refreshPage() {
     console.log("refreshed page");
     location.reload();
-}
+}/*
 
 //if(gameLoop == 60){ --- cant slow down loop so needs to be if/else
 //    gameLoop == 60
