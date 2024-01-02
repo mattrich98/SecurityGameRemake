@@ -1,7 +1,6 @@
 function startGame() {
     console.log("test");
+    return "game started";
 }
 
-test()
-test()
-test()
+startGame()
