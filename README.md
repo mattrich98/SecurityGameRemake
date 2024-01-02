@@ -26,14 +26,14 @@ Furthermore I'd like to try the following:
 <hr>
 <strong><u>JavaScript plans:</u></strong>
 <ol>
-<li>Game timer loop on ticks when play button starts</li>
-<li>Add timer that links with timer loop</li>
+<li><s>Game timer loop on ticks when play button starts</s></li>
+<li><s>Add timer that links with timer loop</s></li>
 <br>
 <li>use math.random api to make enemy and person move random spaces on board</li>
 <li>onclick enemy -1 point, onclick person +1 point</li>
-<li>point system with alert at end saying score.</li>
+<li>point system with <s>alert at end saying score.</s></li>
 <br>
-<li>able to restart game from play button without refreshing page</li>
-<li>play button click -> game loop will start</li>
-<li>play button will say "Click to restart" after game loop ended"</li>
+<li><s>able to restart game from play button without refreshing page</s> -> Alert button refreshes page.</li>
+<li><s>play button click -> game loop will start</s></li>
+<li><s>play button will say "Click to restart" after game loop ended"</s> -> attempted and decided to use location.refresh once alert is closed.</li>
 </ol> 
