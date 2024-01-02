@@ -35,5 +35,5 @@ Furthermore I'd like to try the following:
 <br>
 <li><s>able to restart game from play button without refreshing page</s> -> Alert button refreshes page.</li>
 <li><s>play button click -> game loop will start</s></li>
-<li><s>play button will say "Click to restart" after game loop ended"</s> -> attempted and decided to use location.refresh once alert is closed.</li>
+<li><s>play button will say "Click to restart" after game loop ended"</s> -> attempted and decided to use 'location.reload();' once alert is closed.</li>
 </ol> 
