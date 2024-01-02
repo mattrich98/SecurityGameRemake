@@ -12,15 +12,14 @@ function startGame() {
 }
 
 function gameIntervals(){
-    for (let i = 0; i <= 60; i++ ){
-        console.log(i);
-        
+    for (let i = 0; i <= 60; i ++ ){
+        console.log(i); 
+        document.getElementById("startButton").innerHTML = "Game Started";
     }
-
     if (i = 60){
     console.log("Game Over");
     document.getElementById("startButton").innerHTML = "Play again?";
-    
+    alert("Game over, you scored " + gameScore);
     }
 }
 
