@@ -4,29 +4,33 @@ let gameBoard = document.querySelector("#Board") = 0;
 
 console.log(Math.floor(Math.random() * 81));
 
-
 function startGame() {
     gameIntervals();
     movePlayers();
     return "game started";
+    
 }
 
 function gameIntervals(){
     for (let i = 0; i <= 60; i ++ ){
         console.log(i); 
         document.getElementById("startButton").innerHTML = "Game Started";
+
     }
+
+
     if (i = 60){
     console.log("Game Over");
     document.getElementById("startButton").innerHTML = "Play again?";
     alert("Game over, you scored " + gameScore);
     }
+    
 }
 
 function movePlayers() {
+    gameBoard.children(Math.floor(Math.random() * 81));
     return "players moved places"
 }
-
 
 
 //if(gameLoop == 60){
