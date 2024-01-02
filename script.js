@@ -1,6 +1,5 @@
 let gameTime = 0;
 let gameScore = 0;
-let gameLoop = 0;
 let gameBoard = document.querySelector("#Board") = 0;
 
 console.log(Math.floor(Math.random() * 81));
@@ -16,8 +15,6 @@ function gameIntervals(){
     for (let i = 0; i <= 60; i++){
         console.log(i);
     }
-
-    console.log(gameLoop);
     return "Game Over";
 }
 
