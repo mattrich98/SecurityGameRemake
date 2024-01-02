@@ -33,6 +33,10 @@ function movePlayers() {
     return "players moved places"
 }
 
+function refreshPage() {
+    console.log("refreshed page");
+    location.reload();
+}
 
 //if(gameLoop == 60){ --- cant slow down loop so needs to be if/else
 //    gameLoop == 60
