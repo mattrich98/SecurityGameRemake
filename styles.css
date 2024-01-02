@@ -85,3 +85,14 @@ button:active {
     font-weight: 900
 }
 
+.profileLink {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+    color: rgb(168, 206, 0);
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+    
+}
