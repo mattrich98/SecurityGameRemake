@@ -70,7 +70,7 @@ button:active {
 .timerScoreGroup {
     display: flex;
     justify-content: center;
-    gap: 250px;
+    gap: 200px;
 }
 
 .timer {
