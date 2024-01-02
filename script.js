@@ -15,6 +15,7 @@ function gameIntervals() {
   if (gameTime <= 5) {
     setTimeout(gameIntervals, 750); //Loops gameIntervals, 750 = time between
     console.log(gameTime);
+    document.getElementById("timeNumber").innerHTML = gameTime; //link with HTML timer
     document.getElementById("startButton").innerHTML = "Game Started";
     document.getElementById("startButton").onclick = false; //stops play button press
   } else if (gameTime >= 5) {
