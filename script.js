@@ -15,7 +15,10 @@ function gameIntervals(){
     for (let i = 0; i <= 60; i++){
         console.log(i);
     }
-    return "Game Over";
+    if (i = 60){
+    console.log("Game Over");
+    gameIntervals = false;
+    }
 }
 
 function movePlayers() {
