@@ -6,6 +6,10 @@
     font-family: monospace;
 }
 
+.header {
+    height: 100px;
+}
+
 #Board {
     background-color: white;
     width: 468px;
