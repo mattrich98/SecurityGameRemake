@@ -1,10 +1,7 @@
 let gameTime = 0;
 let gameScore = 0;
-let person = document.getElementById("person");
-let enemy = 0; 
-//let gameBoard = document.querySelector("#Board") = 0;
-
-console.log(Math.floor(Math.random() * 81)); //there are 9x9 squares//
+const personBlock = getElementById("person"); 
+const enemyBlock = getElementById("enemy");
 
 function startGame() {
   gameIntervals();
@@ -17,22 +14,22 @@ function gameIntervals() {
   gameTime++;
   if (gameTime <= 20) {
     setTimeout(gameIntervals, 750); //Loops gameIntervals, 750 = time between
-    //console.log(gameTime);
     document.getElementById("timeNumber").innerHTML = gameTime; //link with HTML timer
     document.getElementById("startButton").innerHTML = "Game Started";
     document.getElementById("startButton").onclick = false; //stops play button press
+
   } else if (gameTime >= 20) {
     //stops setTimeout loop
+    document.getElementById("startButton").innerHTML = "Game Over";
     alert("Game over! you scored: " + gameScore);
     console.log("Game Over");
     //document.getElementById("startButton").innerHTML = "Click below to play again";
     location.reload();
   }
-  
 }
 
 function pointsSystem() {
-document.getElementById("person").addEventListener("click", function pointsSystem() {
+document.getElementById("person").addEventListener("click", function gainPoints() {
     gameScore++;
     console.log(gameScore);
     document.getElementById("scoreNumber").innerHTML = gameScore;
@@ -45,7 +42,6 @@ document.getElementById("enemy").addEventListener("click", function losePoints()
     document.getElementById("scoreNumber").innerHTML = gameScore;
 })
 }
-
 
 function movePlayers() {
 
