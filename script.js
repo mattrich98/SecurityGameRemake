@@ -44,6 +44,7 @@ document.getElementById("enemy").addEventListener("click", function losePoints()
 }
 
 function movePlayers() {
+    
 
 }
 
