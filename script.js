@@ -1,11 +1,14 @@
 let gameTime = 0;
 let gameScore = 0;
+let person = document.getElementById("person");
+let enemy = 0; 
 //let gameBoard = document.querySelector("#Board") = 0;
 
 console.log(Math.floor(Math.random() * 81)); //there are 9x9 squares//
 
 function startGame() {
   gameIntervals();
+  pointsSystem();
   movePlayers();
   return "game started";
 }
@@ -14,7 +17,7 @@ function gameIntervals() {
   gameTime++;
   if (gameTime <= 20) {
     setTimeout(gameIntervals, 750); //Loops gameIntervals, 750 = time between
-    console.log(gameTime);
+    //console.log(gameTime);
     document.getElementById("timeNumber").innerHTML = gameTime; //link with HTML timer
     document.getElementById("startButton").innerHTML = "Game Started";
     document.getElementById("startButton").onclick = false; //stops play button press
@@ -27,10 +30,26 @@ function gameIntervals() {
   }
 }
 
+document.getElementById("person").addEventListener("click", function pointsSystem() {
+    gameScore++;
+    console.log(gameScore);
+    document.getElementById("scoreNumber").innerHTML = gameScore;
+});
+
+document.getElementById("enemy").addEventListener("click", function losePoints(){
+    gameScore--;
+    gameScore--;
+    console.log("gameScore");
+    document.getElementById("scoreNumber").innerHTML = gameScore;
+})
+
+
 function movePlayers() {
   //gameBoard.children(Math.floor(Math.random() * 81));
   return "players moved places";
 }
+
+
 
 /*function refreshPage() {
     console.log("refreshed page");
