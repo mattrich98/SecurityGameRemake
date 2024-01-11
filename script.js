@@ -41,15 +41,14 @@ document.getElementById("person").addEventListener("click", function pointsSyste
 document.getElementById("enemy").addEventListener("click", function losePoints(){
     gameScore--;
     gameScore--;
-    console.log("gameScore");
+    console.log(gameScore);
     document.getElementById("scoreNumber").innerHTML = gameScore;
 })
 }
 
 
 function movePlayers() {
-  //gameBoard.children(Math.floor(Math.random() * 81));
-  return "players moved places";
+
 }
 
 
