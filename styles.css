@@ -30,6 +30,7 @@
 
 #enemy:hover {
     transition: 0.2s;
+    color: rgb(248, 141, 141);
     background-color: rgb(248, 141, 141);
 }
 
@@ -42,6 +43,7 @@
 
 #person:hover {
     transition: 0.2s;
+    color: rgb(141, 248, 147);
     background-color: rgb(141, 248, 147);
 }
 
