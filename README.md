@@ -30,10 +30,16 @@ Furthermore I'd like to try the following:
 <li><s>Add timer that links with timer loop</s></li>
 <br>
 <li>use math.random api to make enemy and person move random spaces on board</li>
-<li>onclick enemy -1 point, onclick person +1 point</li>
-<li>point system with <s>alert at end saying score.</s></li>
+<li><s>onclick enemy -1 point, onclick person +1 point</s></li>
+<li><s>point system with alert at end saying score.</s></li>
 <br>
 <li><s>able to restart game from play button without refreshing page</s> -> Alert button refreshes page.</li>
 <li><s>play button click -> game loop will start</s></li>
 <li><s>play button will say "Click to restart" after game loop ended"</s> -> attempted and decided to use 'location.reload();' once alert is closed.</li>
 </ol> 
+<hr>
+<strong><u>Conclusion:</u></strong>
+<br>
+I've had to learn how to add event listeners.
+<br>
+Maybe I will need to learn splice method.
