@@ -28,8 +28,10 @@ function gameIntervals() {
     //document.getElementById("startButton").innerHTML = "Click below to play again";
     location.reload();
   }
+  
 }
 
+function pointsSystem() {
 document.getElementById("person").addEventListener("click", function pointsSystem() {
     gameScore++;
     console.log(gameScore);
@@ -42,6 +44,7 @@ document.getElementById("enemy").addEventListener("click", function losePoints()
     console.log("gameScore");
     document.getElementById("scoreNumber").innerHTML = gameScore;
 })
+}
 
 
 function movePlayers() {
