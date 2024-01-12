@@ -42,4 +42,8 @@ Furthermore I'd like to try the following:
 <br>
 I've had to learn how to add event listeners.
 <br>
-Maybe I will need to learn splice method.
+<br>
+I plan to come back to this project in the future once I learn more about using JavaScript. Currently, I have learned a lot and gained experience through trial and error. Overall, this was an attempt to create a project from scratch, and I'm happy with how far I've come. 
+<br>
+<br>
+It's frustrating, but in the future I'll think about using the maths.random method on an array that doesn't change DIVS to [object HTMLDivElement].
