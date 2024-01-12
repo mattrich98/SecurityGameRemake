@@ -4,6 +4,11 @@
 <hr>
 Previously I've followed a tutorial for the other Security Game project <a href=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
 <br>
+<br>
+<h4>Link to website:</h4>
+https://mattrich98.github.io/Project-SecurityGameRemake/
+<br>
+<br>
 Furthermore I'd like to try the following:
 <br>
 <br>
@@ -47,3 +52,6 @@ I plan to come back to this project in the future once I learn more about using 
 <br>
 <br>
 It's frustrating, but in the future I'll think about using the maths.random method on an array that doesn't change DIVS to [object HTMLDivElement].
+<br>
+<br>
+I will now continue to learn from The Odin Project again. 
