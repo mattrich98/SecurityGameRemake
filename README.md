@@ -51,6 +51,8 @@ I've had to learn how to add event listeners.
 I plan to come back to this project in the future once I learn more about using JavaScript. Currently, I have learned a lot and gained experience through trial and error. Overall, this was an attempt to create a project from scratch, and I'm happy with how far I've come. 
 <br>
 <br>
+Since I'm going to do a rock-paper-scissors game in the Odin Project, I will return to this project after. Since some of the that project is similar to what I'm trying to do with the DIV.
+<br>
 It's frustrating, but in the future I'll think about using the maths.random method on an array that doesn't change DIVS to [object HTMLDivElement].
 <br>
 <br>
