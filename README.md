@@ -57,4 +57,4 @@ It's frustrating, but in the future I'll think about using the maths.random meth
 I will now continue to learn from The Odin Project again. 
 <br>
 <br>
-Since I'm going to do a rock-paper-scissors game in the Odin Project, I will return to this project after. Since some of the that project is similar to what I'm trying to do with the DIV.
+Since I'm going to do a rock-paper-scissors game in the Odin Project, I will return to this project after. Since some of that project is similar to what I'm trying to do with the DIV.
