@@ -57,6 +57,7 @@ It's frustrating, but in the future I'll think about using the maths.random meth
 <li>Perhaps to try adding the text to a div and using JS: adding getElementById to the innerHTML text so the text somehow moves regardless of the DIV. I want to replace one square with one of maximum 81 squares.</li>
 <br>
 <br>
+<hr>
 I will now continue to learn from The Odin Project again. 
 <br>
 <br>
