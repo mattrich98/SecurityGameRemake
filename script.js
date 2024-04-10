@@ -54,13 +54,15 @@ function movePlayers() {
   1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
 
   2. To randomise -> Create a section of several enemy/person block sections that disappear and reappear 
-     using math.random method
-     
+     using math.random method to randomise the apperances. This works because Board div flex is aligned to a row.
+
      -> Children of a section must be parents. Cons - Predictability makes the game easier.
   
      -> this is how I can come up with the solution with my current skills.
 
      -> Use a for loop to combine everything into one block.
+
+     -> Although its different from the previous security game. I want to come up with my own methods.
 
 /*
 
