@@ -51,15 +51,22 @@ function movePlayers() {
 
 
 /* 
-  To select the HTML Divs in CSS, display: none -> display: block;
+  1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
 
-  To randomise -> Create a section of several enemy/person blocks that disappear and reappear using math.random
-  --Children of a section must be parents. Cons - Predictability makes the game easier.
-  ---But this is how I can come up with the solution with my current skills.
+  2. To randomise -> Create a section of several enemy/person block sections that disappear and reappear 
+     using math.random method
+     
+     -> Children of a section must be parents. Cons - Predictability makes the game easier.
+  
+     -> this is how I can come up with the solution with my current skills.
 
-Use a for loop. 
+     -> Use a for loop to combine everything into one block.
 
 /*
+
+
+
+
 
 /*let parentBlock = document.getElementById("Board");
 let childBlocks = parentBlock.children;
@@ -73,7 +80,7 @@ childArray.sort(() => Math.random() - 0.5);
     childArray = parentBlock;
     console.log(childArray);
 
-    This will not work.
+    This will not work, it converts the DIV elements into text.
 */
 
 /*
