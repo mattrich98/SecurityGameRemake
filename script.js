@@ -1,4 +1,4 @@
-let gameTime = 0; //number for time that will increment as the game plays out.
+let gameTime = 0; //number for time that will increment as the game plays out. 
 let gameScore = 0; //number for the player's score that will increment.
 
 function startGame() { //pressing the play button starts the game with nested functions
@@ -9,6 +9,9 @@ function startGame() { //pressing the play button starts the game with nested fu
 
 function gameIntervals() { 
   gameTime++; //gametime gets incremented +1 every second
+  console.log(gameTime); //checks gameTime is incrementing (JavaScript is a single-threaded language )
+  
+
   if (gameTime <= 20) { //if the game time is less than 20 seconds, below will occur
 
     //Loops gameIntervals, 750 = time between
@@ -20,6 +23,7 @@ function gameIntervals() {
 
     //stops play button press
     document.getElementById("startButton").onclick = false; //so you can only click the play button once to start game
+   
 
     //stops setTimeout loop
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
@@ -27,7 +31,6 @@ function gameIntervals() {
     document.getElementById("startButton").innerHTML = "Game Over"; //changes the start button inner letters
     alert("Game over! you scored: " + gameScore); //method alert pop up in browser for final score
     //console.log("Game Over");
-   
   }
 }
 
@@ -56,19 +59,22 @@ function pointsSystem() {
 }
 
 console.log("test"); //Need to setup nodejs properly
+console.log(gameTime) // does nothing
 
 
-function dissapearingPlayers() { 
+/*function dissapearingPlayers() { 
 
-  while (gameTime = true) { //loop while the game timer is incrementing.
+  while (gameTime < 20) { //loop while the game timer is incrementing.
 
     document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
     document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
 
     setTimeout(dissapearingPlayers, 1000); //slows down intervals
 
-    //stops while loop
-    if(gameTime == 20) //if the timer reaches 20, the loop will stop
-    break; //breaks the loop
+
   }
 }
+
+/*    //stops while loop
+if(gameTime == 20) //if the timer reaches 20, the loop will stop
+break; //breaks the loop */
