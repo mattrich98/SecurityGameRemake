@@ -4,7 +4,7 @@ let gameScore = 0; //number for the player's score that will increment.
 function startGame() { //starts the game with nested functions
   gameIntervals(); //games timer function
   pointsSystem(); //gain or lose points function
-  movePlayers(); //moving players function 
+  dissapearingPlayers(); //dissapearing and reappearing players function 
 }
 
 function gameIntervals() { 
@@ -55,20 +55,20 @@ function pointsSystem() {
 })
 }
 
-/*function movePlayers() {
+console.log("test"); //Need to setup nodejs properly
 
-  while (gameTime <= 20) {
 
-    //makes enemy dissapear and reappear 
-    document.getElementById("enemy").style.display = "none";
-    document.getElementById("enemy").style.display = "inline";
+function dissapearingPlayers() { 
 
-    //slows down intervals
-    setTimeout(movePlayers, 1000);
+  while (gameTime = true) { //loop while the game timer is incrementing.
+
+    document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
+    document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
+
+    setTimeout(dissapearingPlayers, 1000); //slows down intervals
 
     //stops while loop
-    if(gameTime == 20)
-    break;
+    if(gameTime == 20) //if the timer reaches 20, the loop will stop
+    break; //breaks the loop
   }
 }
-*/
