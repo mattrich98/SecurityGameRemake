@@ -9,7 +9,7 @@ function startGame() { //pressing the play button starts the game with nested fu
 
 function gameIntervals() { 
   gameTime++; //gametime gets incremented +1 every second
-  console.log(gameTime); //checks gameTime is incrementing (JavaScript is a single-threaded language )
+  console.log(gameTime); //checks gameTime is incrementing (JavaScript is a single-threaded language)
   
 
   if (gameTime <= 20) { //if the game time is less than 20 seconds, below will occur
@@ -26,12 +26,23 @@ function gameIntervals() {
    
 
     //stops setTimeout loop
+
+    //This is a long solution but it works!
+    if (gameTime == 5){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 6){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
     
     document.getElementById("startButton").innerHTML = "Game Over"; //changes the start button inner letters
     alert("Game over! you scored: " + gameScore); //method alert pop up in browser for final score
     //console.log("Game Over");
   }
+  
 }
 
 function pointsSystem() { 
@@ -61,19 +72,34 @@ function pointsSystem() {
 console.log("test"); //Need to setup nodejs properly
 console.log(gameTime) // does nothing
 
+/*
+function dissapearingPlayers() { 
 
-/*function dissapearingPlayers() { 
+  let dissapearingLogGameTime = document.getElementById("timeNumber").innerHTML; //to select the inside of the  variable
+  dissapearingLogGameTime++; //increments variable
+  console.log(dissapearingLogGameTime); 
 
-  while (gameTime < 20) { //loop while the game timer is incrementing.
+  while (dissapearingLogGameTime <= 20){ //To get the code to start once game button changes to "Game Started"
 
-    document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
+    
     document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
-
-    setTimeout(dissapearingPlayers, 1000); //slows down intervals
+    document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
+ 
+  }
 
 
   }
-}
+//}
+
+  /*while (dissapearingLogGameTime != 20) { //loop while the game timer is incrementing.
+  console.log("function D test");
+  document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
+  document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
+
+  setTimeout(dissapearingPlayers, 1000); //slows down intervals*/
+
+  //if(document.getElementById("timeNumber").innerHTML == 20) //if the timer reaches 20, the loop will stop
+  //break; //breaks the loop */
 
 /*    //stops while loop
 if(gameTime == 20) //if the timer reaches 20, the loop will stop
