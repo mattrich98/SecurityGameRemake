@@ -1,10 +1,10 @@
-let gameTime = 0;
-let gameScore = 0;
+let gameTime = 0; //number for Time that will increment
+let gameScore = 0; //number for Score that will increment
 
-function startGame() {
-  gameIntervals();
-  pointsSystem();
-  movePlayers();
+function startGame() { //starts Game with nested functions
+  gameIntervals(); //nested function for game changes that take place every second
+  pointsSystem(); //nested function to gain or lose points
+  movePlayers(); //nested function to move the players
 }
 
 function gameIntervals() {
@@ -45,7 +45,7 @@ function pointsSystem() {
 })
 }
 
-function movePlayers() {
+/*function movePlayers() {
 
   while (gameTime <= 20) {
 
@@ -61,3 +61,4 @@ function movePlayers() {
     break;
   }
 }
+*/
