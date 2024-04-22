@@ -27,12 +27,85 @@ function gameIntervals() {
 
     //stops setTimeout loop
 
-    //This is a long solution but it works!
+    //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
+    
+    if (gameTime == 1){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 2){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 3){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 4){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
     if (gameTime == 5){
       document.getElementById("enemy").style.display = "none";
     }
 
     if (gameTime == 6){
+      document.getElementById("enemy").style.display = "inline";
+    } 
+
+    if (gameTime == 7){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 8){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 9){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 10){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 11){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 22){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 13){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 14){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 15){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 16){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 17){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 18){
+      document.getElementById("enemy").style.display = "inline";
+    }
+
+    if (gameTime == 19){
+      document.getElementById("enemy").style.display = "none";
+    }
+
+    if (gameTime == 20){
       document.getElementById("enemy").style.display = "inline";
     }
 
