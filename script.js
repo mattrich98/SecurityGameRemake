@@ -12,8 +12,12 @@ function gameIntervals() {
   if (gameTime <= 20) {
 
     //Loops gameIntervals, 750 = time between
-    setTimeout(gameIntervals, 750); 
-    
+    setTimeout(gameIntervals, 750);
+
+    //Enemies display inline / none
+    //ocument.getElementById("enemy").style.display = "none";
+    //document.getElementById("enemy").style.display = "inline";
+
     //link with HTML timer
     document.getElementById("timeNumber").innerHTML = gameTime; 
     document.getElementById("startButton").innerHTML = "Game Started";
@@ -26,7 +30,7 @@ function gameIntervals() {
     document.getElementById("startButton").innerHTML = "Game Over";
     alert("Game over! you scored: " + gameScore);
     //console.log("Game Over");
-    location.reload();
+   
   }
 }
 
@@ -46,15 +50,22 @@ function pointsSystem() {
 }
 
 function movePlayers() {
+  while(startGame = true){
+  //Slows down intervals
+  setTimeout(movePlayers, 750);
 
+  //Appear and Disspearing Enemy Div
+  document.getElementById("enemy").style.display = "none";
+  document.getElementById("enemy").style.display = "inline";  
 
+    if(startGame = false){
+      movePlayers = false;
+    }
 
+  }
 }
 
-/*
-document.getElementById("enemy").style.display = "none";
-document.getElementById("enemy").style.display = "inline";
-*/
+
 
 /* 
   1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
