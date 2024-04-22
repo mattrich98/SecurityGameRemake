@@ -14,9 +14,12 @@ function gameIntervals() {
     //Loops gameIntervals, 750 = time between
     setTimeout(gameIntervals, 750);
 
-    //Enemies display inline / none
-    //ocument.getElementById("enemy").style.display = "none";
-    //document.getElementById("enemy").style.display = "inline";
+    /*Enemies display inline / none
+    while(gameTime <= 20){
+    document.getElementById("enemy").style.display = "none";
+    document.getElementById("enemy").style.display = "inline";
+    }
+    */
 
     //link with HTML timer
     document.getElementById("timeNumber").innerHTML = gameTime; 
@@ -51,23 +54,23 @@ function pointsSystem() {
 
 function movePlayers() {
   while(startGame = true){
-  //Slows down intervals
-  setTimeout(movePlayers, 750);
-
-  //Appear and Disspearing Enemy Div
-  document.getElementById("enemy").style.display = "none";
-  document.getElementById("enemy").style.display = "inline";  
-
-    if(startGame = false){
-      movePlayers = false;
-    }
-
+  setInterval(movePlayers, 1000/10)
+    document.getElementById("enemy").style.display = "none";
+    document.getElementById("enemy").style.display = "inline";
   }
+
+  //figure out how to stop infinite loop
 }
 
+ /*
 
+  if(document.getElementById("enemy").style.display = "none"){
+    document.getElementById("enemy").style.display = "inline";
+  }
+  if(document.getElementById("enemy").style.display = "inline"){
+    document.getElementById("enemy").style.display = "none";
 
-/* 
+  
   1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
 
   2. To randomise -> Create a section of several enemy/person block sections that disappear and reappear 
