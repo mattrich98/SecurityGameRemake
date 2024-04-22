@@ -1,7 +1,7 @@
 let gameTime = 0; //number for time that will increment as the game plays out.
 let gameScore = 0; //number for the player's score that will increment.
 
-function startGame() { //starts the game with nested functions
+function startGame() { //pressing the play button starts the game with nested functions
   gameIntervals(); //games timer function
   pointsSystem(); //gain or lose points function
   dissapearingPlayers(); //dissapearing and reappearing players function 
