@@ -29,9 +29,9 @@ function gameIntervals() {
     
 
     // I want to test if I can turn none and inline into numbers and use the numbers in maths.random
-    document.getElementById("enemy").style.display = "none" == 1;
+    let invisibleE = document.getElementById("enemy").style.display = "none" == 1;
     
-    document.getElementById("enemy").style.display = "inline" == 2;
+    let visibleE = document.getElementById("enemy").style.display = "inline" == 2;
 
     //-------------------------------------------------------------------
 
