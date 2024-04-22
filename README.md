@@ -44,3 +44,11 @@ Furthermore I'd like to try the following:
 <li>To move the player around, i'll make the person and enemy divs reappear and disappear every game interval. Plus they will be split into groups and somehow whilst incorporating math.random.
 </ol> 
 <hr>
+
+I recieved advice and I will try to use it well
+
+- Add a bunch of console.log("gameTime is", gameTime); See what happens.
+
+- Put a breakpoint in your code. Many browsers will let you do this. If not, use a debugger. Step through the code and look at the variable values.
+
+- write down what each step of the code will do. Go line by line.
