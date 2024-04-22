@@ -35,6 +35,7 @@ function pointsSystem() {
     gameScore+=1;
     //console.log(gameScore);
     document.getElementById("scoreNumber").innerHTML = gameScore;
+    
 });
 
     document.getElementById("enemy").addEventListener("click", function losePoints(){
@@ -47,8 +48,13 @@ function pointsSystem() {
 function movePlayers() {
 
 
+
 }
 
+/*
+document.getElementById("enemy").style.display = "none";
+document.getElementById("enemy").style.display = "inline";
+*/
 
 /* 
   1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
