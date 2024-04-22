@@ -54,19 +54,21 @@ function pointsSystem() {
 
 function movePlayers() {
 
-  
-  while(gameTime <= 20) {
+  while (gameTime <= 20) {
 
+    //makes enemy dissapear and reappear 
     document.getElementById("enemy").style.display = "none";
     document.getElementById("enemy").style.display = "inline";
-    setTimeout(movePlayers, 20000);
 
-    if(gameTime == 20){
-      break;
-    }
+    //slows down intervals
+    setTimeout(movePlayers, 1000);
+
+    //stops while loop
+    if(gameTime == 20)
+    break;
   }
 
-  //figure out how to stop infinite loop, this is the method I want to try
+  //figure out how to stop infinite loop, since crashes browser
 }
 
  /*
