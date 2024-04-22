@@ -27,6 +27,14 @@ function gameIntervals() {
 
     //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
     
+
+    // I want to test if I can turn none and inline into numbers and use the numbers in maths.random
+    document.getElementById("enemy").style.display = "none" == 1;
+    
+    document.getElementById("enemy").style.display = "inline" == 2;
+
+    //-------------------------------------------------------------------
+
     if (gameTime == 1){
       document.getElementById("enemy").style.display = "none";
     }
