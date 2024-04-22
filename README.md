@@ -41,6 +41,6 @@ Furthermore I'd like to try the following:
 <li><s>able to restart game from play button without refreshing page</s> -> Alert button refreshes page.</li>
 <li><s>play button click -> game loop will start</s></li>
 <li><s>play button will say "Click to restart" after game loop ended"</s> -> attempted and decided to use 'location.reload();' once alert is closed.</li>
-<li>To move the player around, i'll make the people and enemy divs reappear and disappear every game interval. Plus they will be split into groups and somehow whilst incorporating math.random.
+<li>To move the player around, i'll make the person and enemy divs reappear and disappear every game interval. Plus they will be split into groups and somehow whilst incorporating math.random.
 </ol> 
 <hr>
