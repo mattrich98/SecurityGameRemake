@@ -71,7 +71,7 @@ function gameIntervals() {
       document.getElementById("enemy").style.display = "none";
     }
 
-    if (gameTime == 22){
+    if (gameTime == 12){
       document.getElementById("enemy").style.display = "inline";
     }
 
@@ -113,6 +113,7 @@ function gameIntervals() {
     
     document.getElementById("startButton").innerHTML = "Game Over"; //changes the start button inner letters
     alert("Game over! you scored: " + gameScore); //method alert pop up in browser for final score
+    location.reload();
     //console.log("Game Over");
   }
   
