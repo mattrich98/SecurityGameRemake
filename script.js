@@ -14,13 +14,6 @@ function gameIntervals() {
     //Loops gameIntervals, 750 = time between
     setTimeout(gameIntervals, 750);
 
-    /*Enemies display inline / none
-    while(gameTime <= 20){
-    document.getElementById("enemy").style.display = "none";
-    document.getElementById("enemy").style.display = "inline";
-    }
-    */
-
     //link with HTML timer
     document.getElementById("timeNumber").innerHTML = gameTime; 
     document.getElementById("startButton").innerHTML = "Game Started";
@@ -67,63 +60,4 @@ function movePlayers() {
     if(gameTime == 20)
     break;
   }
-
-  //figure out how to stop infinite loop, since crashes browser
 }
-
- /*
-
-  if(document.getElementById("enemy").style.display = "none"){
-    document.getElementById("enemy").style.display = "inline";
-  }
-  if(document.getElementById("enemy").style.display = "inline"){
-    document.getElementById("enemy").style.display = "none";
-
-  
-  1. To select the HTML Divs in CSS, display: none -> display: block; (Figure out how to do this with javascript)
-
-  2. To randomise -> Create a section of several enemy/person block sections that disappear and reappear 
-     using math.random method to randomise the apperances. This works because Board div flex is aligned to a row.
-
-     -> Children of a section must be parents. Cons - Predictability makes the game easier.
-  
-     -> this is how I can come up with the solution with my current skills.
-
-     -> Use a for loop to combine everything into one block.
-
-     -> Although its different from the previous security game. I want to come up with my own methods.
-
-/*
-
-
-
-
-
-/*let parentBlock = document.getElementById("Board");
-let childBlocks = parentBlock.children;
-//console.log(childBlocks);
-
-const childArray = Array.from(childBlocks);
-//console.log(childArray);
-
-childArray.sort(() => Math.random() - 0.5);
-    document.querySelector("#Board").innerHTML = childArray;
-    childArray = parentBlock;
-    console.log(childArray);
-
-    This will not work, it converts the DIV elements into text.
-*/
-
-/*
-    //This is how to select board children
-    let divChildren = document.getElementById("Board").children;
-    //console.log(divChildren);
-    
-    //Converting the div variable into an array
-    const boardArray = Array.from(divChildren);
-    
-    //randomize div variable
-    boardArray.sort(() => Math.random() - 0.5);
-    document.getElementById("Board").childElementCount =  boardArray;
-    console.log(boardArray);
-*/
