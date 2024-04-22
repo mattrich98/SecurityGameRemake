@@ -19,7 +19,7 @@ function gameIntervals() {
     document.getElementById("startButton").innerHTML = "Game Started"; //changes the start button inner letters
 
     //stops play button press
-    document.getElementById("startButton").onclick = false; //so you can only click the play button once to the start game
+    document.getElementById("startButton").onclick = false; //so you can only click the play button once to start game
 
     //stops setTimeout loop
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
