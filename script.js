@@ -25,8 +25,6 @@ function gameIntervals() {
     document.getElementById("startButton").onclick = false; //so you can only click the play button once to start game
    
 
-    //stops setTimeout loop
-
     //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
     
     if (gameTime == 1){
@@ -109,6 +107,8 @@ function gameIntervals() {
       document.getElementById("enemy").style.display = "inline";
     }
 
+
+  //stops setTimeout loop
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
     
     document.getElementById("startButton").innerHTML = "Game Over"; //changes the start button inner letters
@@ -162,7 +162,7 @@ function dissapearingPlayers() {
 
 
   }
-//}
+}
 
   /*while (dissapearingLogGameTime != 20) { //loop while the game timer is incrementing.
   console.log("function D test");
