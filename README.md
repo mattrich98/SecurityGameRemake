@@ -1,6 +1,9 @@
 # Project-SecurityGameRemake
 <h2>Security Game Remake</h2>
 <h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
+<br>
+<br>
+<h4>(I will continue with "The Odin Project" and put this project on hold for now as I need to gain more JavaScript knowledge to achieve what I want to do.)
 <hr>
 Previously I've followed a tutorial for the other Security Game project <a href=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
 <br>
@@ -52,3 +55,4 @@ I recieved advice and I will try to use it well
 - Put a breakpoint in your code. Many browsers will let you do this. If not, use a debugger. Step through the code and look at the variable values.
 
 - write down what each step of the code will do. Go line by line.
+
