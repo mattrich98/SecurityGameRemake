@@ -3,7 +3,6 @@
 <h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
 <hr>
 <h3>Current Conclusion</h3>
-<br>
 <h4>I will continue with "The Odin Project" and put this project on hold for now as I need to gain more JavaScript knowledge to achieve what I want to do.
 <br>
 <br>
