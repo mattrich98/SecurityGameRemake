@@ -27,88 +27,88 @@ function gameIntervals() {
     //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
     
 
-    //Plan -- Using an image array example, make a div array that uses the maths.random method.
-
-    
 
     if (gameTime == 1){
-      document.querySelector(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
+      
+      document.querySelectorAll(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
+      //document.getElementById("person").style.display = "none";
     }
 
     if (gameTime == 2){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
+      
     }
 
     if (gameTime == 3){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 4){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 5){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 6){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     } 
 
     if (gameTime == 7){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 8){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 9){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 10){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 11){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 12){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 13){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 14){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 15){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 16){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 17){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 18){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
     if (gameTime == 19){
-      document.getElementById("enemy").style.display = "none";
+      document.querySelector(".enemyClass").style.display = "none";
     }
 
     if (gameTime == 20){
-      document.getElementById("enemy").style.display = "inline";
+      document.querySelector(".enemyClass").style.display = "inline";
     }
 
 
@@ -137,7 +137,7 @@ function pointsSystem() {
 });
 
   //gets HTML div id person and adds click ability with lose points function 
-    document.getElementById("enemy").addEventListener("click", function losePoints(){
+    document.querySelector(".enemyClass").addEventListener("click", function losePoints(){
 
     gameScore-=5; //each click decrements the score -5
     //console.log(gameScore);
