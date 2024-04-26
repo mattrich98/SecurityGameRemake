@@ -4,7 +4,6 @@ let gameScore = 0; //number for the player's score that will increment.
 function startGame() { //pressing the play button starts the game with nested functions
   gameIntervals(); //games timer function
   pointsSystem(); //gain or lose points function
-  dissapearingPlayers(); //dissapearing and reappearing players function 
 }
 
 function gameIntervals() { 
@@ -30,18 +29,10 @@ function gameIntervals() {
 
     //Plan -- Using an image array example, make a div array that uses the maths.random method.
 
-
-    let = enemyArray = document.getElementById("enemy");
-    let = personArray = document.getElementById("person");
-
-
-    const divArray = {personArray, enemyArray};
-
-
     
 
     if (gameTime == 1){
-      document.getElementById("enemy").style.display = math.random();
+      document.querySelector(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
     }
 
     if (gameTime == 2){
