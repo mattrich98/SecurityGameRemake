@@ -30,7 +30,7 @@ function gameIntervals() {
 
     if (gameTime == 1){
       
-      document.querySelectorAll(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
+      document.querySelector(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
       //document.getElementById("person").style.display = "none";
     }
 
