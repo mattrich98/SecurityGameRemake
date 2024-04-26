@@ -4,6 +4,7 @@
 <hr>
 <h4>I will continue with "The Odin Project" and put this project on hold for now as I need to gain more JavaScript knowledge to achieve what I want to do.
 <br>
+<br>
   It seems to me like I'm trying to do higher level things when I should focus on building up towards it. Therefore I will solely focus on the Odin Project until I'm ready.</h4>
 <br>
 Previously I've followed a tutorial for the other Security Game project <a href=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
