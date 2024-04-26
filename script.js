@@ -28,15 +28,20 @@ function gameIntervals() {
     //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
     
 
-    // I want to test if I can turn none and inline into numbers and use the numbers in maths.random
-    let invisibleE = document.getElementById("enemy").style.display = "none" == 1;
-    
-    let visibleE = document.getElementById("enemy").style.display = "inline" == 2;
+    //Plan -- Using an image array example, make a div array that uses the maths.random method.
 
-    //-------------------------------------------------------------------
+
+    let = enemyArray = document.getElementById("enemy");
+    let = personArray = document.getElementById("person");
+
+
+    const divArray = {personArray, enemyArray};
+
+
+    
 
     if (gameTime == 1){
-      document.getElementById("enemy").style.display = "none";
+      document.getElementById("enemy").style.display = math.random();
     }
 
     if (gameTime == 2){
