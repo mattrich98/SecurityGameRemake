@@ -18,7 +18,7 @@ https://mattrich98.github.io/Project-SecurityGameRemake/
 <hr>
 <strong><u>plans:</u></strong>
 <ol>
-<li><s>1. Game timer loop on ticks when play button starts</s></li>
+<li><s> Game timer loop on ticks when play button starts</s></li>
 <li><s>Add timer that links with timer loop</s></li>
 <br>
 <li><s>use math.random api to make enemy and person move random spaces on board</s></li>
