@@ -40,6 +40,10 @@ I recieved advice and I will try to use it well
 
 - test
 
+Conclusion:
+
+There are things I could have done, changed or improved upon but, so far I am satisfied with the current state of this project as it is playable and fun. Maybe I will come back to it in the future to polish it and fix mistakes.
+
 - write down what each step of the code will do. Go line by line.
 
 
