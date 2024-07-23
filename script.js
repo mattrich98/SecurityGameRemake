@@ -34,7 +34,8 @@ function gameIntervals() {
       
       document.querySelector(".enemyClass").style.width= randomWidth + "px"; //document.getelementbyClassName doesn't let you use the display CSS command
 
-      document.getElementById("1").style.width = randomWidth + "px"; //Need to use ID to effect individual squares
+      //px is added to the end of randomWidth to convert it into a specific number with px for CSS
+      document.getElementById("1").style.width = randomWidth + "px"; //Need to use ID to effect individual squares,
 
     }
 
