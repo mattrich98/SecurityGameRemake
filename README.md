@@ -38,6 +38,8 @@ I recieved advice and I will try to use it well
 
 - Put a breakpoint in your code. Many browsers will let you do this. If not, use a debugger. Step through the code and look at the variable values.
 
+- test
+
 - write down what each step of the code will do. Go line by line.
 
 
