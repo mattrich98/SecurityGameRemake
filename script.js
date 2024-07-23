@@ -174,7 +174,7 @@ function pointsSystem() {
 });
 
   //gets HTML div id person and adds click ability with lose points function 
-    document.querySelector(".enemyClass").addEventListener("click", function losePoints(){
+    document.getElementById("enemy1").addEventListener("click", function losePoints(){
 
     gameScore-=5; //each click decrements the score -5
     //console.log(gameScore);
