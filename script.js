@@ -26,8 +26,7 @@ function gameIntervals() {
 
     //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
     
-
-
+/*
     if (gameTime == 1){
       
       document.querySelector(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
@@ -110,7 +109,7 @@ function gameIntervals() {
     if (gameTime == 20){
       document.querySelector(".enemyClass").style.display = "inline";
     }
-
+*/
 
   //stops setTimeout loop
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
@@ -149,36 +148,3 @@ function pointsSystem() {
 
 console.log("test"); //Need to setup nodejs properly
 console.log(gameTime) // does nothing
-
-/*
-function dissapearingPlayers() { 
-
-  let dissapearingLogGameTime = document.getElementById("timeNumber").innerHTML; //to select the inside of the  variable
-  dissapearingLogGameTime++; //increments variable
-  console.log(dissapearingLogGameTime); 
-
-  while (dissapearingLogGameTime <= 20){ //To get the code to start once game button changes to "Game Started"
-
-    
-    document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
-    document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
- 
-  }
-
-
-  }
-}
-
-  /*while (dissapearingLogGameTime != 20) { //loop while the game timer is incrementing.
-  console.log("function D test");
-  document.getElementById("enemy").style.display = "none"; //makes enemy div dissapear
-  document.getElementById("enemy").style.display = "inline"; //makes enemy div reappear
-
-  setTimeout(dissapearingPlayers, 1000); //slows down intervals*/
-
-  //if(document.getElementById("timeNumber").innerHTML == 20) //if the timer reaches 20, the loop will stop
-  //break; //breaks the loop */
-
-/*    //stops while loop
-if(gameTime == 20) //if the timer reaches 20, the loop will stop
-break; //breaks the loop */
