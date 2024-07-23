@@ -45,7 +45,7 @@ I recieved advice and I will try to use it well
 <hr>
 <strong>Conclusion:</strong>
 
-There are things I could have done, changed or improved upon but, so far I am satisfied with the current state of this project as it is playable and fun. Maybe I will come back to it in the future to polish it and fix mistakes.
+There are things that things that could be changed and improved, but for now I'm happy with the current state of this project as it's playable and fun. In the future, I may come back to polish it up and fix my mistakes.
 
 
 
