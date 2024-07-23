@@ -31,20 +31,51 @@ function gameIntervals() {
 
     //math.floor is needed because it rounds the decimal point/float number to a whole number <--------------------------
 
+
+    /* Array Duplicates Top */
     displayArray = ["inline", "none"]; //choose between strings, inline or none
     let displayRandom = displayArray[Math.floor(Math.random()*displayArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
-
-
 
     displayArray2 = ["inline", "none"]; //choose between strings, inline or none
     let displayRandom2 = displayArray2[Math.floor(Math.random()*displayArray2.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
 
+    displayArray3 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom3 = displayArray3[Math.floor(Math.random()*displayArray3.length)];
 
+    displayArray4 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom4 = displayArray4[Math.floor(Math.random()*displayArray4.length)];
+
+    displayArray5 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom5 = displayArray5[Math.floor(Math.random()*displayArray5.length)];
+
+    displayArray6 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom6 = displayArray5[Math.floor(Math.random()*displayArray6.length)];
+
+    displayArray7 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom7 = displayArray7[Math.floor(Math.random()*displayArray7.length)];
+
+    displayArray8 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom8 = displayArray8[Math.floor(Math.random()*displayArray8.length)];
+
+    displayArray9 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom9 = displayArray9[Math.floor(Math.random()*displayArray9.length)];
+
+    displayArray10 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom10 = displayArray10[Math.floor(Math.random()*displayArray10.length)];
+
+    /*Array Duplicatse Bottom */
 
     if (gameTime == 1){
-      
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
 
 
       //px is added to the end of randomWidth to convert it into a specific number with px for CSS  document.getElementById("enemyClass2").style.width = randomWidth + "px"
@@ -54,98 +85,248 @@ function gameIntervals() {
     if (gameTime == 2){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 3){
-
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 4){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
-
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 5){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 6){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     } 
 
     if (gameTime == 7){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 8){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 9){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 10){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 11){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 12){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 13){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 14){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 15){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 16){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 17){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 18){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 19){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
     if (gameTime == 20){
       document.getElementById('enemy1').style.display= displayRandom; 
       document.getElementById('person').style.display = displayRandom2;
+      document.getElementById('person').style.display = displayRandom3;
+      document.getElementById('person2').style.display = displayRandom4;
+      document.getElementById('person3').style.display = displayRandom5;
+      document.getElementById('person4').style.display = displayRandom6;
+      document.getElementById('enemy2').style.display = displayRandom7;
+      document.getElementById('enemy3').style.display = displayRandom8;
+      document.getElementById('enemy4').style.display = displayRandom9;
+      document.getElementById('enemy5').style.display = displayRandom10;
     }
 
 
@@ -173,6 +354,33 @@ function pointsSystem() {
     
 });
 
+  document.getElementById("person2").addEventListener("click", function gainPoints() { 
+    gameScore+=1;
+    document.getElementById("scoreNumber").innerHTML = gameScore; 
+    
+});
+
+document.getElementById("person3").addEventListener("click", function gainPoints() { 
+  gameScore+=1;
+  document.getElementById("scoreNumber").innerHTML = gameScore; 
+  
+});
+
+document.getElementById("person4").addEventListener("click", function gainPoints() { 
+  gameScore+=1;
+  document.getElementById("scoreNumber").innerHTML = gameScore; 
+  
+});
+
+document.getElementById("person5").addEventListener("click", function gainPoints() { 
+  gameScore+=1;
+  document.getElementById("scoreNumber").innerHTML = gameScore; 
+  
+});
+
+
+
+
   //gets HTML div id person and adds click ability with lose points function 
     document.getElementById("enemy1").addEventListener("click", function losePoints(){
 
@@ -182,6 +390,27 @@ function pointsSystem() {
     //gameScore variable links with inner HTML score div to make it visible on browser
     document.getElementById("scoreNumber").innerHTML = gameScore;
 })
+
+document.getElementById("enemy2").addEventListener("click", function losePoints(){
+  gameScore-=5; 
+  document.getElementById("scoreNumber").innerHTML = gameScore;
+})
+
+document.getElementById("enemy3").addEventListener("click", function losePoints(){
+  gameScore-=5; 
+  document.getElementById("scoreNumber").innerHTML = gameScore;
+})
+
+document.getElementById("enemy4").addEventListener("click", function losePoints(){
+  gameScore-=5; 
+  document.getElementById("scoreNumber").innerHTML = gameScore;
+})
+
+document.getElementById("enemy5").addEventListener("click", function losePoints(){
+  gameScore-=5; 
+  document.getElementById("scoreNumber").innerHTML = gameScore;
+})
+
 }
 
 console.log("test"); //Need to setup nodejs properly
