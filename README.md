@@ -40,3 +40,5 @@ I recieved advice and I will try to use it well
 
 - write down what each step of the code will do. Go line by line.
 
+
+When I removed the scrollbar in CSS, it cropped the extra enemy div at the bottom so the board div is always full of squares now.
