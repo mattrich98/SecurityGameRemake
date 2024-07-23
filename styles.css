@@ -1,19 +1,22 @@
 * {
-    background-color: rgb(255, 255, 255);
-    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+    border: solid 1px rgb(46, 46, 46);
     border-radius: 10px;
 
     font-family: monospace;
 }
+
 
 .header {
     height: 100px;
 }
 
 #Board {
-    background-color: white;
+    background-color: rgb(15, 15, 15);
     width: 510px;
     height: 510px;
+    
+    padding: 10px;
 
     display: flex;
     flex-wrap: wrap;
@@ -91,13 +94,15 @@ button:active {
 .timer {
     text-align: center;
     font-size: 25px;
-    font-weight: 900
+    font-weight: 900;
+    color: white;
 }
 
 .score{
     text-align: center;
     font-size: 25px;
-    font-weight: 900
+    font-weight: 900;
+    color: white;
 }
 
 .profileLink {
