@@ -1,18 +1,11 @@
 # Project-SecurityGameRemake
 <h2>Security Game Remake</h2>
-<h4>"The Odin Project" javascript section is mostly read without application currently, so I need to put into practice what I have learned so far.</h4>
-<br>
-<br>
-<h4>(I will continue with "The Odin Project" and put this project on hold for now as I need to gain more JavaScript knowledge to achieve what I want to do.)
+<h4>I want to create a simple game project from scratch.</h4>
 <hr>
-Previously I've followed a tutorial for the other Security Game project <a href=https://github.com/mattrich98/Point-and-Click-Security-Game>Click here to see it</a>. 
-<br>
 <br>
 <h4>Link to website:</h4>
 https://mattrich98.github.io/Project-SecurityGameRemake/
 <br>
-<br>
-Furthermore I'd like to try the following:
 <br>
 <br>
 <strong><u>Plans/Todos:</u></strong>
@@ -21,20 +14,11 @@ Furthermore I'd like to try the following:
 <li>To understand what I am doing. 
 <br>
 <br>
-<li>To further practice JavaScript:
-<br>
-<ul>
-<li>if/else</li> 
-<li>loops</li>
-<li>boolean</li> 
-<li>string literals and etc.</li> 
-</ul>
-</ul>
 <br>
 <hr>
-<strong><u>JavaScript plans:</u></strong>
+<strong><u>plans:</u></strong>
 <ol>
-<li><s>Game timer loop on ticks when play button starts</s></li>
+<li><s> Game timer loop on ticks when play button starts</s></li>
 <li><s>Add timer that links with timer loop</s></li>
 <br>
 <li><s>use math.random api to make enemy and person move random spaces on board</s></li>
