@@ -26,98 +26,122 @@ function gameIntervals() {
 
     //Idea: Make the divs 0px by 0px to make it look like it dissapears, normal size when it appears. This way you can use numbers in maths.random
 
-    widthArray = ['0', '50'] //Between 0 and 50px  only
-    var randomWidth = widthArray[Math.floor(Math.random()*widthArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
+    //widthArray = ['0', '50'] //Between 0 and 50px  only
+    //var randomWidth = widthArray[Math.floor(Math.random()*widthArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
 
-
-    displayArray = ["inline", "none"] //choose between strings, inline or none
+    displayArray = ["inline", "none"]; //choose between strings, inline or none
     let displayRandom = displayArray[Math.floor(Math.random()*displayArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
+
+    displayArray2 = ["inline", "none"]; //choose between strings, inline or none
+    let displayRandom2 = displayArray2[Math.floor(Math.random()*displayArray2.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
+
 
 
     if (gameTime == 1){
       
-      document.querySelector(".enemyClass").style.display= displayRandom; //document.getelementbyClassName doesn't let you use the display CSS command
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
 
-      //px is added to the end of randomWidth to convert it into a specific number with px for CSS
-      //document.getElementById("1").style.width = randomWidth + "px"; //Need to use ID to effect individual squares,
+
+      //px is added to the end of randomWidth to convert it into a specific number with px for CSS  document.getElementById("enemyClass2").style.width = randomWidth + "px"
 
     }
 
     if (gameTime == 2){
-      document.querySelector(".enemyClass").style.display= displayRandom;
-      
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 3){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 4){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
+
     }
 
     if (gameTime == 5){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 6){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     } 
 
     if (gameTime == 7){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 8){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 9){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 10){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 11){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 12){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 13){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 14){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 15){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 16){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 17){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 18){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 19){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
     if (gameTime == 20){
-      document.querySelector(".enemyClass").style.display= displayRandom;
+      document.getElementById('enemy1').style.display= displayRandom; 
+      document.getElementById('person').style.display = displayRandom2;
     }
 
 
