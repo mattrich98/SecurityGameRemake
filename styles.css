@@ -96,6 +96,7 @@ button:active {
     font-size: 25px;
     font-weight: 900;
     color: white;
+    user-select: none;
 }
 
 .score{
@@ -103,6 +104,7 @@ button:active {
     font-size: 25px;
     font-weight: 900;
     color: white;
+    user-select: none;
 }
 
 .profileLink {
