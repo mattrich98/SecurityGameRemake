@@ -24,13 +24,14 @@ function gameIntervals() {
     document.getElementById("startButton").onclick = false; //so you can only click the play button once to start game
    
 
-    //This is a long solution but it works! (maybe there is a way to effect specifically even numbers and odd numbers?)
+    //Idea: Make the divs 0px by 0px to make it look like it dissapears, normal size when it appears. This way you can use numbers in maths.random
     
-/*
+
     if (gameTime == 1){
       
       document.querySelector(".enemyClass").style.display = "none"; //document.getelementbyClassName doesn't let you use the display CSS command
       //document.getElementById("person").style.display = "none";
+
     }
 
     if (gameTime == 2){
@@ -109,7 +110,7 @@ function gameIntervals() {
     if (gameTime == 20){
       document.querySelector(".enemyClass").style.display = "inline";
     }
-*/
+
 
   //stops setTimeout loop
   } else if (gameTime >= 20) { //if the timer reaches 20 seconds
