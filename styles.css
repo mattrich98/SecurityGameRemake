@@ -2,7 +2,7 @@
     background-color: rgb(46, 46, 46);
     border: solid 1px rgb(46, 46, 46);
     border-radius: 10px;
-
+    overflow: hidden; /* Hide scrollbars */
     font-family: monospace;
 }
 
@@ -44,11 +44,58 @@
     background-color: rgb(248, 141, 141);
 }
 
+#enemy2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
 
+#enemy2:hover {
+    transition: 0.2s;
+    color: rgb(248, 141, 141);
+    background-color: rgb(248, 141, 141);
+}
+
+#enemy3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#enemy3:hover {
+    transition: 0.2s;
+    color: rgb(248, 141, 141);
+    background-color: rgb(248, 141, 141);
+}
+
+#enemy4 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#enemy4:hover {
+    transition: 0.2s;
+    color: rgb(248, 141, 141);
+    background-color: rgb(248, 141, 141);
+}
+
+#enemy5 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#enemy5:hover {
+    transition: 0.2s;
+    color: rgb(248, 141, 141);
+    background-color: rgb(248, 141, 141);
+}
 
 
 /*Enemy Section Bottom */
 
+/*person duplicates Top */
 #person {
     background-color: green;
     width: 100px;
@@ -60,6 +107,44 @@
     color: rgb(141, 248, 147);
     background-color: rgb(141, 248, 147);
 }
+
+#person2 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#person2:hover {
+    transition: 0.2s;
+    color: rgb(141, 248, 147);
+    background-color: rgb(141, 248, 147);
+}
+
+#person3 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#person3:hover {
+    transition: 0.2s;
+    color: rgb(141, 248, 147);
+    background-color: rgb(141, 248, 147);
+}
+
+#person4 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+#person4:hover {
+    transition: 0.2s;
+    color: rgb(141, 248, 147);
+    background-color: rgb(141, 248, 147);
+}
+
+/*person duplicates bottom */
 
 button {
     background-color: aqua;
@@ -73,7 +158,9 @@ button {
 
     text-align: center;
     font-size: 25px;
-    font-weight: 900
+    font-weight: 900;
+    z-index: 9999;
+    position:relative
 }
 
 button:hover {
