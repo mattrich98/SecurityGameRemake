@@ -38,13 +38,15 @@ I recieved advice and I will try to use it well
 
 - Put a breakpoint in your code. Many browsers will let you do this. If not, use a debugger. Step through the code and look at the variable values.
 
-- test
-
-Conclusion:
+- write down what each step of the code will do. Go line by line.
+- 
+-When I removed the scrollbar in CSS, it cropped the extra enemy div at the bottom so the board div is always full of squares now.
+<br>
+<hr>
+<strong>Conclusion:</strong>
 
 There are things I could have done, changed or improved upon but, so far I am satisfied with the current state of this project as it is playable and fun. Maybe I will come back to it in the future to polish it and fix mistakes.
 
-- write down what each step of the code will do. Go line by line.
 
 
-When I removed the scrollbar in CSS, it cropped the extra enemy div at the bottom so the board div is always full of squares now.
+
