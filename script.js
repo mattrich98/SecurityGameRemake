@@ -29,8 +29,12 @@ function gameIntervals() {
     //widthArray = ['0', '50'] //Between 0 and 50px  only
     //var randomWidth = widthArray[Math.floor(Math.random()*widthArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
 
+    //math.floor is needed because it rounds the decimal point/float number to a whole number <--------------------------
+
     displayArray = ["inline", "none"]; //choose between strings, inline or none
     let displayRandom = displayArray[Math.floor(Math.random()*displayArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
+
+
 
     displayArray2 = ["inline", "none"]; //choose between strings, inline or none
     let displayRandom2 = displayArray2[Math.floor(Math.random()*displayArray2.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
