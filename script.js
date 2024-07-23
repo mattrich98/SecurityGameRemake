@@ -31,7 +31,7 @@ function gameIntervals() {
 
 
     displayArray = ["inline", "none"] //choose between strings, inline or none
-    var displayRandom = displayArray[Math.floor(Math.random()*displayArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
+    let displayRandom = displayArray[Math.floor(Math.random()*displayArray.length)]; //[Math.floor] is needed to calculate Math.random()*widthArray.length) * <-- combines those two to use array
 
 
     if (gameTime == 1){
