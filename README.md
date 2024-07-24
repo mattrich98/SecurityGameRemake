@@ -4,7 +4,7 @@
 <hr>
 <br>
 <h4>Link to website:</h4>
-https://mattrich98.github.io/Project-SecurityGameRemake/
+https://mattrich98.github.io/SecurityGameRemake/
 <br>
 <br>
 <br>
