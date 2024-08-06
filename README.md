@@ -47,6 +47,7 @@ I recieved advice and I will try to use it well
 
 There are things that things that could be changed and improved, but for now I'm happy with the current state of this project as it's playable and fun. In the future, I may come back to polish it up and fix my mistakes.
 
+- The reason I didn't put the gameTime intervals in a loop is because I couldn't figure out how to adjust the loop speed and stop the loop at the same time. 
 
 
 
